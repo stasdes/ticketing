@@ -5,10 +5,10 @@ deploy:
     manifests:
       - ./infra/k8s/*
 build:
-  # local:
-  #   push: false
-  googleCloudBuild:
-    projectId: pacific-destiny-272719
+  local:
+    push: false
+  # googleCloudBuild:
+  #   projectId: ticketing-dev-279712
   artifacts:
     - image: us.gcr.io/ticketing-dev-279712/auth
       context: auth
