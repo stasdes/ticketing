@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 WORKDIR /app
 COPY package.json .
-RUN yarn install --prod
+RUN yarn install
 COPY . .
 
-CMD ["yarn", "start"]
+CMD ["yarn", "run", "dev"]
