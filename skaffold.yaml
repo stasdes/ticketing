@@ -9,8 +9,9 @@ build:
     push: false
 # googleCloudBuild:
 #   projectId: ticketing-dev-279712
+# us.gcr.io/ticketing-dev-279712 instead of stasdes
   artifacts:
-    - image: us.gcr.io/ticketing-dev-279712/auth
+    - image: stasdes/auth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -18,7 +19,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/ticketing-dev-279712/client
+    - image: stasdes/client
       context: client
       docker:
         dockerfile: Dockerfile
@@ -26,7 +27,7 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-    - image: us.gcr.io/ticketing-dev-279712/tickets
+    - image: stasdes/tickets
       context: tickets
       docker:
         dockerfile: Dockerfile
@@ -34,7 +35,7 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
-    - image: us.gcr.io/ticketing-dev-279712/orders
+    - image: stasdes/orders
       context: orders
       docker:
         dockerfile: Dockerfile
