@@ -478,10 +478,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@stasd/common@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@stasd/common/-/common-1.0.9.tgz#3cad329016787b359ebc43214fd04e4cf2877b0d"
-  integrity sha512-w9F7PUBjcwmVI1Xb3CSldQpsScYVK+dvBDkRPhHr/36Tx2PPsLHwtNghW0n2kAwcPA5bR9I0qhMrlW7xTZ0H/g==
+"@stasd/common@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@stasd/common/-/common-1.0.10.tgz#07db00c67b4db8bbb79f67f75dd96c875a06213a"
+  integrity sha512-PJ4TrFjVTma7m/1mm4vKuSblqenyzM6UqhuXoNT3ium7kWT4vmfTbxiiH9VQl5xE5tDA1lHPpU0oFytd4fIVnA==
   dependencies:
     "@types/cookie-session" "^2.0.40"
     "@types/express" "^4.17.6"
